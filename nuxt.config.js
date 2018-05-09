@@ -43,7 +43,7 @@ module.exports = {
   build: {
     /*
     ** Run ESLINT on save
-    */
+    
     extend(config, ctx) {
       config.node = { fs: 'empty' };
       if (ctx.dev && ctx.isClient) {
@@ -54,7 +54,7 @@ module.exports = {
           exclude: /(node_modules)/
         });
       }
-    },
+    },*/
     vendor: ['vee-validate', 'vuetify'],
     extractCSS: true
   },
